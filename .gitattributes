@@ -1,0 +1,22 @@
+# Normalise text files across platforms
+* text=auto eol=lf
+
+# Source and documentation
+*.java text
+*.md text
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.json text
+*.drawio text
+
+# Binary assets (explicitly tracked where required for build or submission)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.jar binary
+*.class binary

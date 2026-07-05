@@ -1,0 +1,70 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build directories
+build/
+out/
+target/
+bin/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and JVM crash dumps
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# Secrets (never commit)
+.env
+.env.*
+
+# Merge and editor backup files
+*.orig
+*.bak
+
+# Gradle
+.gradle/
+gradle/
+
+# Maven
+.mvn/
+.m2/
+META-INF/
+
+# Legacy Sprint 1 prototype build outputs (keep Java source only)
+sprint1/prototypes/**/dist/
+sprint1/prototypes/**/*.class
+
+# ---------------------------------------------------------------------------
+# Submission and runtime assets — intentionally tracked (NOT ignored):
+#   sprint1/**, sprint2/**, sprint3/**  — class diagrams (.drawio, .png), design PDFs
+#   src/main/resources/**               — packaged UI images (e.g. london_map.png)
+# Add Sprint 3 class-diagram files under sprint3/; they will be committed normally.
+# ---------------------------------------------------------------------------
+
+# Loose image/PDF dumps at repository root only (duplicates or local dev copies).
+# Does not apply to sprint*/ or src/main/resources/ paths above.
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.pdf
+/*.ico
