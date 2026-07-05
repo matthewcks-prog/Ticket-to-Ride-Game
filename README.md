@@ -2,6 +2,10 @@
 
 A Java 25 Swing implementation of Ticket to Ride: London. The project prioritises a maintainable, testable architecture: game rules live outside Swing, player actions enter through application commands, and UI panels render immutable snapshots.
 
+## Demo
+
+- [Ticket_to_Ride_Sprint3_implementation.mp4](https://drive.google.com/file/d/16gYKUoiqWr433hspgT5yW5bvSiqttjQ8/view?usp=drive_link) — recorded walkthrough of the integrated Swing gameplay and Sprint 3 implementation.
+
 ## Architecture
 
 The codebase follows a four-layer structure under `src/main/java/ttrlondon`:
