@@ -1,6 +1,6 @@
 # Ticket to Ride: London
 
-A Java 25 Swing implementation of Ticket to Ride: London. The project prioritises a maintainable, testable architecture: game rules live outside Swing, player actions enter through application commands, and UI panels render immutable snapshots. Extract the game_executable.zip for the true game experience!
+A Java 25 Swing implementation of Ticket to Ride: London. The project prioritises a maintainable, testable architecture: game rules live outside Swing, player actions enter through application commands, and UI panels render immutable snapshots.
 
 ## Architecture
 
